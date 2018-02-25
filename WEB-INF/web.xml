@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+    <!-- AviaBook servlet -->
+    <servlet>
+        <servlet-name>AviaBook</servlet-name>
+        <servlet-class>app.servlets.AviaBook</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AviaBook</servlet-name>
+        <url-pattern>/AviaBook</url-pattern>
+    </servlet-mapping>
+
+
+
+    <!-- Algorithm servlet -->
+    <servlet>
+        <servlet-name>Algorithm</servlet-name>
+        <servlet-class>app.servlets.Algorithm</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Algorithm</servlet-name>
+        <url-pattern>/Algorithm</url-pattern>
+    </servlet-mapping>
+
+
+
+    <!-- Pattern servlet -->
+    <servlet>
+        <servlet-name>Pattern</servlet-name>
+        <servlet-class>app.servlets.Pattern</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Pattern</servlet-name>
+        <url-pattern>/Pattern</url-pattern>
+    </servlet-mapping>
+
+
+
+
+</web-app>
